@@ -6,7 +6,7 @@ function init() {
   
   const body=document.body;
   
-  body.addEventListener('keydown',)
+  body.addEventListener('keydown', function(e))
   
   //This is the function evoked by the event listener.
   function onKeyDownHandler(e) {

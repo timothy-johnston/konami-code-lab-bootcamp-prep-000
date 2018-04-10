@@ -6,16 +6,11 @@ function init() {
   
   const body=document.body;
   
-  body.addEventListener('keydown', function(e))
-  
-  
-  
-  //This is the function evoked by the event listener.
-  function onKeyDownHandler(e) {
-    const key = parseInt(e.detail || e.which);
+  body.addEventListener('keydown', function(e) {
+    const key = parseInt(e.deail || e.which);
     
-    if (key === code[index]) {
-      index++;
+    if (key === code [index]) {
+      index++
       
       if (index === code.length) {
         window.alert("You cracked the code!");
@@ -23,8 +18,12 @@ function init() {
         index = 0;
       }
     } else {
-      index = 0;
+      index - 0;
     }
   }
+  
+  
+  
+  
 
 }

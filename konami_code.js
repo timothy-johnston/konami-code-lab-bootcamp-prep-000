@@ -4,7 +4,7 @@ function init() {
   //Keep track of index outside of the event handler.
   let index = 0;
   
-  body=document.body
+  const body=document.body;
   
   //This is the function evoked by the event listener.
   function onKeyDownHandler(e) {

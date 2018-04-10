@@ -8,6 +8,8 @@ function init() {
   
   body.addEventListener('keydown', function(e))
   
+  
+  
   //This is the function evoked by the event listener.
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);

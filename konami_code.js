@@ -7,6 +7,18 @@ function init() {
   //This is the function evoked by the event listener.
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
+    
+    if (key === code[index]) {
+      index++;
+      
+      if (index === code.length) {
+        alert("You cracked the code!");
+        
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
   }
 
 }

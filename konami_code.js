@@ -6,7 +6,7 @@ function init() {
   
   const body=document.body;
   
-  body.addEventListener
+  body.addEventListener('')
   
   //This is the function evoked by the event listener.
   function onKeyDownHandler(e) {
